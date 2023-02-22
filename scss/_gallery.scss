@@ -1,0 +1,12 @@
+@use "variables";
+
+.gallery-wrapper {
+  background-color: #e5e5e5;
+  padding: 1em 0;
+  .container {
+    @include variables.lg {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}

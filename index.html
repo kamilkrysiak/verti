@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Flexbox, CSS GRID, SASS</title>
+    <link rel="stylesheet" href="css/index.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="container">
+        <div class="logo">
+          <a class="logo-name" href="#">Verti</a>
+          <p>by HTML5</p>
+        </div>
+        <div class="mobile-icon"><i class="fa-sharp fa-solid fa-bars"></i></div>
+        <ul class="main-menu">
+          <li><a href="#" class="welcome">Welcome</a></li>
+          <li class="dropdown">
+            <a href="#"
+              >Dropdown <i class="fa-sharp fa-solid fa-caret-down"></i
+            ></a>
+            <ul class="menu-dropdown">
+              <li><a href="#">Left Sidebar</a></li>
+              <li><a href="#">Right Sidebar</a></li>
+              <li class="submenu">
+                <a href="#"
+                  >No Sidebar <i class="fa-solid fa-caret-right right-arrow"></i
+                ></a>
+                <ul class="menu-subdropdown">
+                  <li>
+                    <a href="#">ITEM 1</a>
+                  </li>
+                  <li>
+                    <a href="#">ITEM 2</a>
+                  </li>
+                  <li>
+                    <a href="#">ITEM 3</a>
+                  </li>
+                  <li>
+                    <a href="#">ITEM 4</a>
+                  </li>
+                </ul>
+              </li>
+              <li><a href="#" style="border: none">All Sidebar</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Left Sidebar</a></li>
+          <li><a href="#">Right Sidebar</a></li>
+          <li><a href="#">No Sidebar</a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <div class="header">
+      <div class="container">
+        <div class="verti-group">
+          <div class="header-verti-left">
+            <h1>Hi. This is Verti.</h1>
+            <h3>It's a free responsive site template by HTML5 UP</h3>
+          </div>
+          <div class="header-verti-right">
+            <button>ok let's go</button>
+            <button>more info</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="gallery-wrapper">
+      <div class="container">
+        <div class="gallery">
+          <div class="gallery-image">
+            <a href="/"><img src="pic01.jpg" alt="pic01" /></a>
+          </div>
+          <p class="gallery-title">Put something here</p>
+          <p class="gallery-subtitle">Maybe here as well I think</p>
+          <p>
+            Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+            Praesent sed semper amet bibendum tristique fringilla.
+          </p>
+        </div>
+        <div class="gallery">
+          <div class="gallery-image">
+            <a href="/"> <img src="pic03.jpg" alt="pic01" /></a>
+          </div>
+          <p class="gallery-title">An interesting title</p>
+          <p class="gallery-subtitle">This is also an interesting subtitle</p>
+          <p>
+            Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+            Praesent sed semper amet bibendum tristique fringilla.
+          </p>
+        </div>
+        <div class="gallery">
+          <div class="gallery-image">
+            <a href="/"> <img src="pic02.jpg" alt="pic01" /></a>
+          </div>
+          <p class="gallery-title">Oh, and finally ...</p>
+          <p class="gallery-subtitle">Here's another intriguing subtitle</p>
+          <p>
+            Phasellus quam turpis, feugiat sit amet in, hendrerit in lectus.
+            Praesent sed semper amet bibendum tristique fringilla.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <main class="main">
+      <div class="container">
+        <div class="about">
+          <h3>So what's this all about?</h3>
+          <p>
+            This is Verti, a free and fully responsive HTML5 site template by
+            HTML5 UP. Verti is released under the Creative Commons Attribution
+            license, so feel free to use it for any personal or commercial
+            project you might have going on (just don't forget to credit us for
+            the design!)
+          </p>
+          <p>
+            Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in
+            lectus. Praesent semper bibendum ipsum, et tristique augue fringilla
+            eu. Vivamus id risus vel dolor auctor euismod quis eget mi. Etiam eu
+            ante risus. Aliquam erat volutpat. Aliquam luctus mattis lectus sit
+            amet phasellus quam turpis.
+          </p>
+          <button>Continue Reading</button>
+        </div>
+        <div class="stuff">
+          <h3>Interesting stuff</h3>
+          <div class="gallery">
+            <div class="gallery-row">
+              <div class="image">
+                <a href="#"><img src="pic04.jpg" /></a>
+              </div>
+              <div class="image">
+                <a href="#"><img src="pic05.jpg" /></a>
+              </div>
+            </div>
+            <div class="gallery-row">
+              <div class="image">
+                <a href="#"><img src="pic06.jpg" /></a>
+              </div>
+              <div class="image">
+                <a href="#"><img src="pic07.jpg" /></a>
+              </div>
+            </div>
+          </div>
+          <button>More</button>
+        </div>
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="container">
+        <section class="footer-links">
+          <h3>Random Stuff</h3>
+          <ul>
+            <li><a href="#">Etiam feugiat condimentum</a></li>
+            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+            <li><a href="#">Felis varius pellentesque potenti</a></li>
+            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+          </ul>
+        </section>
+        <section class="footer-links">
+          <h3>Random Stuff</h3>
+          <ul>
+            <li><a href="#">Etiam feugiat condimentum</a></li>
+            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+            <li><a href="#">Felis varius pellentesque potenti</a></li>
+            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+          </ul>
+        </section>
+        <section class="footer-links">
+          <h3>Random Stuff</h3>
+          <ul>
+            <li><a href="#">Etiam feugiat condimentum</a></li>
+            <li><a href="#">Aliquam imperdiet suscipit odio</a></li>
+            <li><a href="#">Sed porttitor cras in erat nec</a></li>
+            <li><a href="#">Felis varius pellentesque potenti</a></li>
+            <li><a href="#">Nullam scelerisque blandit leo</a></li>
+          </ul>
+        </section>
+        <section class="footer-links">
+          <h3>Random Stuff</h3>
+          <ul>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-dribbble"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+            </li>
+          </ul>
+          <p>
+            1234 Fictional Road<br />
+            Nashville, TN 00000<br />
+            (800) 555-0000
+          </p>
+        </section>
+      </div>
+    </footer>
+    <script
+      src="https://kit.fontawesome.com/3ac15e46ee.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
